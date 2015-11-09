@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="100"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="8"
+        android:background="#faf8f6" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03" />
+
+        <Button
+            android:id="@+id/login_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.03"
+            android:background="#faf8f6"
+            android:gravity="center_vertical"
+            android:text="@string/login_title"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.74" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="#faf8f6"
+            android:text="@string/user_register"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="#e3e3e3"
+        android:layout_weight="35"   
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editext_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8"
+        android:hint="@string/hint_input_user_name"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editext_user_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8"
+        android:hint="@string/hint_user_pwd"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#e3e3e3"
+        android:orientation="vertical"
+        android:layout_height="0dip"
+        android:layout_weight="41" 
+        android:gravity="center_horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dip" 
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="6"
+            android:background="#e3e3e3" >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="7" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="86"
+                android:background="@drawable/button_login"
+                android:text="@string/user_login" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="7" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="7" >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent" 
+                android:layout_weight="0.67"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="#e3e3e3"
+                android:text="@string/user_find_pwd" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent" 
+                android:layout_weight="0.03"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dip" 
+            android:layout_weight="14"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

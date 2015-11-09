@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#E8E8E8" >
+
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+    
+    <View
+        android:id="@+id/dot_mainview"
+        android:layout_width="31dp"
+        android:layout_height="38dp"
+        android:background="@drawable/home_selected" />
+
+    <!-- 在linearlayout中也可以有marginright 用于设置距离左边 -->
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+  
+    <View
+        android:id="@+id/dot_renqi"
+        android:layout_width="31dp"
+        android:layout_height="38dp"
+        android:background="@drawable/hot" />
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+
+    <View
+        android:id="@+id/dot_like"
+        android:layout_width="31dp"
+        android:layout_height="38dp"
+        android:background="@drawable/like" />
+
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+
+    <View
+        android:id="@+id/dot_me"
+        android:layout_width="31dp"
+        android:layout_height="38dp"
+        android:background="@drawable/me" />
+
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+
+    <View
+        android:id="@+id/dot_more"
+        android:layout_width="31dp"
+        android:layout_height="38dp"
+        android:background="@drawable/more" />
+
+    <Space
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5" />
+</LinearLayout>

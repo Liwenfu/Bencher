@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#faf8f6"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="   " />
+
+        <ImageView
+            android:id="@+id/myattion_logo"
+            android:layout_width="0dip"
+            android:layout_height="70dip"
+            android:layout_weight="25"
+            android:scaleType="fitXY"
+            android:src="@drawable/kekoukele" />
+
+        <include
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            layout="@layout/myattention_listitem_message" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dip"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="  " />
+
+        <ImageButton
+            android:id="@+id/myattion_in"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="20"
+            android:padding="0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/button_in"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@+id/myattion_callme"
+            android:layout_width="0dip"
+            android:layout_height="30dip"
+            android:padding="0dip"
+            android:scaleType="fitXY"
+            android:layout_weight="20"
+            android:src="@drawable/button_remind"
+            android:visibility="visible" />
+        <ImageButton
+            android:id="@+id/myattion_out"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:padding="0dip"
+            android:layout_weight="20"
+            android:scaleType="fitXY"
+            android:src="@drawable/tag_over"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/detail_bg_b"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+
+    <!-- 当没有指定width 和 height的时候是按照填充百分比来计算的 -->
+    <TextView
+        android:id="@+id/imageButton1"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text="XX" />
+	<TextView
+        android:id="@+id/imageButton2"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text=":" />
+    <TextView
+        android:id="@+id/imageButton3"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text="XX" />
+    	<TextView
+        android:id="@+id/imageButton4"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/imageButton5"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text="XX" />
+    	<TextView
+        android:id="@+id/imageButton6"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text=":" />
+
+    <TextView
+        android:id="@+id/imageButton7"
+        style="@style/bus_info_text_style"
+        android:textSize="15sp"
+        android:text="XX" />
+
+</LinearLayout>

@@ -1,0 +1,264 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="8"
+        android:background="#faf8f6" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03" />
+
+        <Button
+            android:id="@+id/register_register_btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.03"
+            android:background="#faf8f6"
+            android:gravity="center_vertical"
+            android:text="@string/register_title"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.74" />
+
+        
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="#e3e3e3"
+        android:layout_weight="35"   
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6" >
+        <Space
+            android:layout_width="0dip"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:layout_weight="20"
+            android:src="@drawable/icon_phone" />
+
+        <EditText
+            android:id="@+id/phoneText"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="72"
+            android:ems="10"
+            android:hint="@string/hint_input_phonenumber"
+            android:textSize="12sp"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6" >
+
+        <Space
+            android:layout_width="0dip"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:layout_weight="20"
+            android:src="@drawable/icon_password" />
+
+        <EditText
+            android:id="@+id/pwdText"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="72"
+            android:ems="10"
+            android:textSize="12sp"
+            android:hint="@string/hint_set_pwd"
+            android:inputType="textPassword" >
+
+        </EditText>
+
+    </LinearLayout>
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6" >
+
+        <Space
+            android:layout_width="0dip"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:layout_weight="20"
+            android:src="@drawable/icon_password" />
+
+        <EditText
+            android:id="@+id/makesurpwdText"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="72"
+            android:ems="10"
+            android:textSize="12sp"     
+            android:hint="@string/hint_makesure_pwd"      
+            android:inputType="textPassword" >
+
+        </EditText>
+
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6" >
+
+        <Space
+            android:layout_width="0dip"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:layout_weight="20"
+            android:src="@drawable/icon_code" />
+
+        <EditText
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:ems="10"
+            android:textSize="12sp"
+            android:hint="@string/hint_identify_code"
+            android:inputType="number" >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/register_maksure_btn"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:background="@drawable/button_login"
+            android:text="@string/hint_get_code"
+            android:textSize="12sp" />
+        
+         <Space
+            android:layout_width="0dip"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />       
+
+    </LinearLayout>  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#e3e3e3"
+        android:orientation="vertical"
+        android:layout_height="0dip"
+        android:layout_weight="41" 
+        android:gravity="center_horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dip" 
+            android:layout_weight="8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="10"
+            android:background="#e3e3e3" >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="7" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="86"
+                android:background="@drawable/button_login"
+                android:text="@string/user_register" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="7" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="7" >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent" 
+                android:layout_weight="0.67"/>
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="match_parent" 
+                android:layout_weight="0.03"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dip" 
+            android:layout_weight="14"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/bencher/city/ContactListView.java" />
+    </issue>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/example/bencher/city/ContactsSectionIndexer.java" />
+        <ignore path="src/com/example/bencher/city/PinYin.java" />
+        <ignore path="src/com/example/bencher/https/APNManager.java" />
+        <ignore path="src/com/example/bencher/ui/CityListActivity.java" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/example/bencher/city/IndexScroller.java" />
+        <ignore path="src/com/example/bencher/view/Myhomeview.java" />
+    </issue>
+</lint>

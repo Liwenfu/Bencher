@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="50"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerbutton"
+            android:text="登录" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewpagerlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="viewpager" />
+
+    <Button
+        android:id="@+id/json"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewpagerlist"
+        android:text="readjson" />
+
+</RelativeLayout>
